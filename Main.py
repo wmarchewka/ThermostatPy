@@ -43,11 +43,14 @@ class MainForm:
         self.panel = wx.Panel(self.frame)
         self.jobID = 0
         self.packetIterator = 0
+        self.test1 = 0
+        
 
         # fonts
         largeFont = wx.Font(34, wx.ROMAN, wx.NORMAL, wx.NORMAL)
 
-        # labels
+        # this is a new comment
+        # # labels
         # self.miscLbl = wx.StaticText(self.panel, -1, pos=(10,30),size = (120,20))
         self.tmpLbl_1 = wx.StaticText(self.panel, -1, pos=(10, 10), size=(120, 20))
         self.tmpLbl_1.SetLabel('Temperature')
